@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExtension", "MoneyExtension\MoneyExtension.csproj", "{F0DEBB57-8A31-4581-BDAE-2A5E81877C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExtension.tests", "MoneyExtension.tests\MoneyExtension.tests.csproj", "{44D95C19-D5CF-47F6-9162-0225E33BA422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0DEBB57-8A31-4581-BDAE-2A5E81877C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DEBB57-8A31-4581-BDAE-2A5E81877C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DEBB57-8A31-4581-BDAE-2A5E81877C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DEBB57-8A31-4581-BDAE-2A5E81877C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D95C19-D5CF-47F6-9162-0225E33BA422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D95C19-D5CF-47F6-9162-0225E33BA422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D95C19-D5CF-47F6-9162-0225E33BA422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D95C19-D5CF-47F6-9162-0225E33BA422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
