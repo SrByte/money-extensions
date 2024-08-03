@@ -1,0 +1,32 @@
+name: Build and Deply Packages
+
+on:
+    push:
+        branches:
+            -   main
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+        -   uses: actions/checkout@main
+
+        -   name: Setup Dot . Net Core
+            uses: action/setup-dotnet@v4
+            with:
+                dotnet-version: '8.0.x'
+        -   name: Build with dotnet
+            run: dotnet build --configuration Release
+        
+        -   name: Test
+            run: dotnet test
+
+        -   name: Dotnet Pack
+            run: dotnet pack --configuration Release
+        
+        -   name: Publish
+            run: dotnet nuget push "MoneyExtensions/bin/Release/*.nupkg" -k ${{ secrets.NUGET_TOKEN }} -s https://api.nuget.org/v3/index.json
+
+
+
+

@@ -4,6 +4,21 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Icon/>
+    <PackageId>Money Extensions .Net</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Elias Albuquerque de Oliveira</Authors>
+    <Company>Voidzone.com.br</Company>
+    <PackageDescription>Extension to convert decimal to integral</PackageDescription>
+    <Description>Extension to convert decimal to integral</Description>
+    <RepositoryUrl>https://github.com/SrByte/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/SrByte/money-extensions<PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>Money;Decimal;int;conveter</PackageTags>
+    <ReleaseNotes>No Notes</ReleaseNotes>
+    <Title>Money Extensions</Title>
+    <Sumary>Extension to convert decimal to integral</Sumary>
   </PropertyGroup>
-
 </Project>
