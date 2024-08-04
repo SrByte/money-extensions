@@ -14,8 +14,8 @@
     <RepositoryUrl>https://github.com/SrByte/money-extensions</RepositoryUrl>
     <PackageProjectUrl>https://github.com/SrByte/money-extensions</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageIcon>Media/icon.png</PackageIcon>
-    <PackageTags>Money;Decimal;int;conveter</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>Money;Decimal;int;converter</PackageTags>
     <ReleaseNotes>No Notes</ReleaseNotes>
     <Title>Money Extensions</Title>
     <Summary>Extension to convert decimal to integral</Summary>
@@ -24,7 +24,7 @@
   <ItemGroup>
     <None Update="Media/icon.png">
       <Pack>True</Pack>
-      <PackagePath>Media/</PackagePath>
+      <PackagePath>icon.png</PackagePath>
     </None>
   </ItemGroup>
 
