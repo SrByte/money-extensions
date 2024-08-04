@@ -4,7 +4,6 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Icon/>
     <PackageId>MoneyExtensions.Net</PackageId>
     <Version>1.0.0</Version>
     <License>MIT</License>
@@ -19,6 +18,14 @@
     <PackageTags>Money;Decimal;int;conveter</PackageTags>
     <ReleaseNotes>No Notes</ReleaseNotes>
     <Title>Money Extensions</Title>
-    <Sumary>Extension to convert decimal to integral</Sumary>
+    <Summary>Extension to convert decimal to integral</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Media/icon.png">
+      <Pack>True</Pack>
+      <PackagePath>Media/</PackagePath>
+    </None>
+  </ItemGroup>
+
 </Project>
