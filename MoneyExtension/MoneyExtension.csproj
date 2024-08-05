@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>ConvertMoneyExtensions.Net</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <License>MIT</License>
     <Authors>Elias Albuquerque de Oliveira</Authors>
     <Company>voidzone.com.br</Company>
